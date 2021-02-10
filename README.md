@@ -1,15 +1,25 @@
-# Welcome to Revel
+# Charon
 
-A high-productivity web framework for the [Go language](http://www.golang.org/).
+Your ferry man to the underworld. Created with love using Revel framework.
 
+### Prerequisites
+```
+go get github.com/revel/revel
+go get github.com/revel/cmd/revel
+```
+
+### Installation:
+```
+go get github.com/geraldvillorente/charondesk
+```
 
 ### Start the web server:
+```
+revel run charondesk
+```
 
-   revel run myapp
-
-### Go to http://localhost:9000/ and you'll see:
-
-    "It works"
+### How to access in the browser?
+- Access the application through http://localhost:9000/
 
 ## Code Layout
 
@@ -40,4 +50,3 @@ The directory structure of a generated Revel application:
 * The [Revel guides](http://revel.github.io/manual/index.html).
 * The [Revel sample apps](http://revel.github.io/examples/index.html).
 * The [API documentation](https://godoc.org/github.com/revel/revel).
-
