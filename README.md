@@ -15,7 +15,8 @@ go get github.com/geraldvillorente/charondesk
 
 ### Start the web server:
 ```
-revel run charondesk
+cd /path/to/charondesk
+revel run -a charondesk
 ```
 
 ### How to access in the browser?
